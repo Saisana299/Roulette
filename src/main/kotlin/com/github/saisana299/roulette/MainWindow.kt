@@ -64,10 +64,16 @@ class MainWindow: Initializable {
             if(code === KeyCode.SPACE){
                 stop()
             }else if(code === KeyCode.ESCAPE){
-                t1done = false
-                t2done = false
-                t3done = false
-                run()
+                Thread {
+                    t1done = true
+                    t2done = true
+                    t3done = true
+                    Thread.sleep(90)
+                    t1done = false
+                    t2done = false
+                    t3done = false
+                    run()
+                }.start()
             }
         }
         return true
