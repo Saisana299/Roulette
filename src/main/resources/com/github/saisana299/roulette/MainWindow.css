@@ -1,0 +1,8 @@
+@font-face {
+src: url("Monaco.ttf");
+}
+
+.label {
+-fx-font-family: 'Monaco';
+-fx-font-size: 250;
+}
