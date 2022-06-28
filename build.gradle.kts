@@ -7,7 +7,7 @@ plugins {
 }
 
 group = "com.github.saisana299.roulette"
-version = "1.0.1"
+version = "1.0.2"
 
 repositories {
     mavenCentral()

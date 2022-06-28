@@ -18,7 +18,7 @@ class Roulette: Application() {
             val scene = Scene(root)
             stage.minWidth = 854.0
             stage.minHeight = 480.0
-            stage.title = "Roulette v1.0.0"
+            stage.title = "Roulette v1.0.2"
             stage.fullScreenExitHint = null
             stage.fullScreenExitKeyCombination = KeyCombination.NO_MATCH
             stage.scene = scene
